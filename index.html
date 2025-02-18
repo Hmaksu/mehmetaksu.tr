@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Mehmet Aksu</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -30,22 +31,32 @@
             text-decoration: none;
             color: #2980b9;
         }
+        .icon {
+            margin-right: 10px;
+            color: #2980b9;
+        }
+        .interactive {
+            transition: transform 0.2s;
+        }
+        .interactive:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Mehmet Aksu</h1>
-        <p>Website: <a href="https://www.hmaksu.com" target="_blank">www.hmaksu.com</a></p>
-        <p>Email: <a href="mailto:mehmet@hmaksu.com">mehmet@hmaksu.com</a></p>
+        <h1><i class="fas fa-user"></i> Mehmet Aksu</h1>
+        <p><i class="fas fa-globe icon"></i><a href="https://www.hmaksu.com" target="_blank">www.hmaksu.com</a></p>
+        <p><i class="fas fa-envelope icon"></i><a href="mailto:mehmet@hmaksu.com">mehmet@hmaksu.com</a></p>
         
-        <div class="section">
-            <h2>Education</h2>
+        <div class="section interactive">
+            <h2><i class="fas fa-graduation-cap icon"></i> Education</h2>
             <p><strong>Istanbul Technical University - Civil Engineering</strong> (09.2019 – 11.2024) - GPA: 2.86/4.0</p>
             <p><strong>International Baccalaureate Diploma Programme</strong> (09.2016 – 05.2018)</p>
         </div>
         
-        <div class="section">
-            <h2>Experience</h2>
+        <div class="section interactive">
+            <h2><i class="fas fa-briefcase icon"></i> Experience</h2>
             <p><strong>ITU Center for Excellence in Education – IT</strong> (07.2023 – Present)</p>
             <p>Responsible for digital content, events, website management, and more.</p>
             
@@ -53,18 +64,18 @@
             <p>Established and led the student club in collaboration with ITU’s EELISA Office.</p>
         </div>
         
-        <div class="section">
-            <h2>Skills</h2>
+        <div class="section interactive">
+            <h2><i class="fas fa-tools icon"></i> Skills</h2>
             <p>Python, Matlab, HTML/CSS/JavaScript, Excel Macro, WordPress, AutoCAD, Revit, Adobe Photoshop, BIM 360, MS Office.</p>
         </div>
         
-        <div class="section">
-            <h2>Languages</h2>
-            <p>Turkish (Native), English (C2), Spanish (A2)</p>
+        <div class="section interactive">
+            <h2><i class="fas fa-language icon"></i> Languages</h2>
+            <p>Turkish, English, Spanish</p>
         </div>
         
-        <div class="section">
-            <h2>Licenses</h2>
+        <div class="section interactive">
+            <h2><i class="fas fa-id-card icon"></i> Licenses</h2>
             <p>Driving License, Amateur UAV Pilot, Amateur Radio Operator (TA1HMA), Amateur Seaman, Short Range Radio Operator.</p>
         </div>
     </div>
